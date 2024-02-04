@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300;0,500;1,300;1,500&display=swap');
+
+body{
+    font-family: 'Cormorant', serif;
+    /* font-weight: 300;  */
+    background-color: #292B2D;
+
+}
+h1, .links{
+    display: inline-block;
+    font-weight: 300;
+    /* color: #2E3840; */
+    color: #F0F4F6;
+    margin: 0 32px 0 0;
+}
+.navbar{
+    margin: 32px;
+}
+.links ul{
+    padding: 0;
+}
+.links > ul >  li {
+    display: inline-block;
+    list-style: none;
+    text-decoration: none;
+    font-weight: 500;
+    /* padding-right: 15px; */
+    
+}
+li a{
+    text-decoration: none;
+    /* color: #2E3840; */
+    color: #F0F4F6;
+
+    font-size: 20px;
+    margin: 0 8px;
+}
+#one{
+    /* border-bottom: 1px solid #2E3840; */
+    border-bottom: 1px solid #F0F4F6;
+}  
+a:hover {
+    border-bottom: 1px solid #F0F4F6;
+
+}
+.card img{
+    height: 500px;
+    width: 100% ;
+    object-fit: cover;
+}
+.card{
+    width: 49.75%;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 20px ;
+}
+.card h2{
+    display: inline-block;
+    font-weight: 300;
+    margin: 9px 0 20px 0;
+    color: #F0F4F6;
+
+}
+.gallery{
+    /* margin: 0 10px 0 10px; */
+    padding: 16px;
+}
+.card img:hover{
+    opacity: 0.8;
+}
+.about h3{
+    font-size: 40px;
+    font-weight: 300;
+}
+.about{
+    width: 40% ;
+    min-width: 600px ;
+    margin: 100px 0 100px 200px;
+    color: #F0F4F6;
+
+}
+.contact{
+    margin-top: 100px;
+}
+.contact p{
+    margin: 0;
+    font-size: 20px;
+    color: #F0F4F6;
+
+}
+#let{
+    /* border-bottom: 1px solid #2E3840; */
+    border-bottom: 1px solid #F0F4F6;
+    display: inline-block;
+    padding-bottom: 8px;
+    margin-top: 0;
+}

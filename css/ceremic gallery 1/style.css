@@ -1,0 +1,25 @@
+body{
+    background-color: #292B2D;
+    color: #F0F4F6;
+
+}
+header h1{
+    display:inline-block;
+}
+nav{
+    display: inline-block;
+}
+.link >ul >li {
+    display: inline-block;
+    
+    list-style: none;
+    padding-right: 32px;
+    
+}
+.link a{
+    text-decoration: none;
+    margin: 0 8px;
+    color: #F0F4F6;
+
+}
+

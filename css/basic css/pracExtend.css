@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Macondo&display=swap');
+body{
+    background-color: rgb(213, 236, 237);
+}
+#head{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Bruno Ace', cursive;
+}
+#naam{
+    display: block;
+    font-family: 'Caveat', cursive;
+    font-size: 30pt;
+    text-align: center;
+    text-shadow: -20px 20px 19px white, 20px -10px 19px white;
+    text-decoration: line-through;
+}
+#naam:hover{
+    cursor: grabbing;
+    text-transform:uppercase;
+    color: #F0F4F6;
+    text-shadow:-20px 20px 19px #292B2D, 20px -10px 19px #292B2D;
+    text-decoration: line-through;
+    
+}
+input[type="text"]{
+    color: tomato;
+}
+
+/* $ mean style a links which contain wiki anywhere in website */
+a[href*="wiki"]{
+    color:rgb(65, 145, 215);
+    text-decoration: none;
+}
+
+/* $ mean style a links which starts with # */
+a[href^="#"]{
+    color:rgb(198, 130, 58);
+    text-decoration: line-through;
+    letter-spacing: 3px;
+}
+
+/* $ mean style a links which ends with .org */
+a[href$=".org"]{
+    color:rgb(227, 14, 163);
+    text-decoration-line: none;
+}
+
+/* Descendent  combinator  means anyhow connected to prev tag*/
+#cast span{
+
+    color: rgb(55, 147, 109);
+}  
+ /* or  */
+/* li span{
+
+    color: rgb(55, 147, 109);
+}    */
+
+/* Child Combinator means directly connected a previous tag */
+ol >  li{
+    border: 1px solid #fc11cf;
+}
+
+/* compounf selectors */
+h2.score{
+    color: cadetblue;
+}
+h2#summary{
+    color: blueviolet ;
+    font-family: sans-serif;
+}

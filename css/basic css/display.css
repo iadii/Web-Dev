@@ -1,0 +1,11 @@
+p{
+    font-size: 30px;
+    font-style: italic;
+    text-transform: capitalize;
+}
+#word{
+    /* display: none ; */
+    border: 14px solid maroon;
+    padding: 34px;
+    margin: 20px;
+}

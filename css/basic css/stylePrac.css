@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600&display=swap');
+body{
+    font-family: 'Work Sans', sans-serif;
+    text-align: justify;
+    word-spacing: 4px; 
+    line-height: 1;
+
+    /* capitalise first letter for every word */
+    text-transform:none ; 
+
+    background-color: #ECE2D0 ;
+
+}
+#para{
+    line-height: 22px;
+}
+#head{
+    font-family: 'Love Light', cursive;
+    font-size: 90px;
+    font-weight: 100;
+    /* text alignment */
+    text-align: center ;
+        
+    /* letter spacing */
+    letter-spacing: -12px; 
+    
+    /* linear gradient */
+    background: -webkit-linear-gradient(180deg,#00235B, #159895);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform:none;
+    /* text-decoration: none; */
+
+}
+#name{
+    font-family: 'Love Light', cursive;
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: 18px;
+
+    /* linear gradient */
+    background: -webkit-linear-gradient(14deg,#102B3F, #EA5455);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    /* text shadow */
+    text-shadow: 1px -2px 5em #505050;
+    
+    /* text-decoration: #102B3F 1px wavy line-through; */
+    
+    /* display: inline; */
+
+
+    
+}
+#name:hover{
+    /* change cursor look */
+    cursor: pointer;
+    /* text-decoration: #f8e 1px  line-through; */
+}
+
+h2{
+    text-decoration: gold 2px underline;
+}
+.feat{
+    background-color: #F6C391;
+    display: inline-block;
+    font-weight: 900;
+    font-size: 30px;
+    font-family: 'Caveat', cursive; ;
+}
+#cast{
+    
+    list-style: "\1F3C5";
+    list-style-position: inside;
+    /* list-style-type: lower-roman; */
+    /* list-style-image: url('listDes.svg'); */
+    /* list-style-image: linear-gradient(to right, rgb(84, 21, 21), rgb(6, 6, 195)); */
+}
+
+a{
+    text-decoration: none;
+    color: #586994;
+}
+
+a:visited{
+    color: #a8ceb7;
+}
+a:hover{
+    text-decoration: line-through;
+    color: cadetblue;
+    cursor:grab;
+}

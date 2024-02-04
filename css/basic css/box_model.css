@@ -1,0 +1,22 @@
+/* #link{
+    margin-top: 4px;
+    font-size: 34px;
+    border: 1px solid red;
+    background-color: #EED9C4;
+    padding-bottom: 10%  ;
+    padding: 10%;
+    line-height: 180px;
+} */
+
+div{
+    background-color: #EED9C4;
+    margin: 30px;
+    height: 200px;
+    width: 200px;
+    border: 3px solid tomato;
+    padding: 10px;
+}
+#alternate{
+    /* it will create overall size 200*200px */
+    box-sizing: border-box ;
+}
