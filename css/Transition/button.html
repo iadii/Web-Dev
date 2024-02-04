@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background:radial-gradient(#98c8d2,#02666f,#020024);
+            cursor:grab;
+            font-size: 1.2rem;
+        }
+        .btn{
+            border: 2px solid black;
+            border-radius: 5px;
+
+            padding: 15px 30px;
+            position: relative;
+            text-decoration: none;
+            color:rgb(1, 89, 89);
+            /* transition: background-color 2.5s, color 2.5s; */
+            transition: all 2.5s;
+            
+            
+        }
+        .btn:hover{
+            
+            background-color:crimson;
+            color: whitesmoke;
+            /* border: none; */
+            border-radius:20%;
+            font-size: 1.7rem;
+            padding: 25px 40px;
+
+        }
+        .btn span{
+            padding: 5px 12px;
+            border: 2px solid black;
+            position: absolute;
+            border-radius: 50%;
+            top: -14px;
+            right: -15px;
+            background-color:ghostwhite;
+            transition: background-color 2.5s, color .05s, padding 2.5s;  
+        }
+        .btn:hover span{
+            background-color:#4caf50 ;
+            /* border: none; */
+            padding: 10px 17px;
+        }
+    </style>
+</head>
+<body>
+    <a href="#none" class="btn">Click Me
+        <span>3</span>
+    </a>
+</body>
+</html>

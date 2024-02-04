@@ -1,0 +1,34 @@
+body{
+    background: linear-gradient(90deg, hsla(330, 23%, 88%, 1) 0%, hsla(224, 33%, 52%, 1) 100%);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn{
+    background-color: white;
+    color: #da4167 ;
+    cursor: pointer;
+    padding: 2rem 7rem;
+    margin: 0 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05rem;
+    border-radius: 0.3rem;
+    /* font-size: 1.8rem;  */
+    font-weight: 700;
+    transition: transform 0.3s ease-in-out, box-shadow 0.5s ease-in-out;
+    box-shadow: 0 10px 30px black;
+
+}
+
+
+.btn1:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 20px 20px black;
+
+}
+.btn2:hover{
+    transform: scale(0.95);
+    box-shadow: 0 13px 15px black;
+
+}

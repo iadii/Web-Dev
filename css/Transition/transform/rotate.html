@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 50px;
+        }
+         .box{
+            width: 100px;
+            height: 100px;
+            background-color:rgb(14, 68, 86);
+            display: inline-block;
+            
+        }
+        .first{
+            transform: rotate(45deg);
+            
+        }
+        /* Rotate */
+        h1{
+            display: inline-block;
+            transform: rotate(270deg) scaleX(.5);
+            transform: rotateX(10deg);
+            transform: rotateY(140deg);
+            transform: rotateZ(100deg);
+        }
+
+        /* scale = stretch to given axis*/
+        /* h1{
+            transform: scale(0.5);
+            transform: scaleX(0.5);
+            transform: scaleY(0.5);
+
+        } */
+    </style>
+</head>
+<body>
+    <h1>Rotation</h1>
+    <div class="box first"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+</body>
+</html>
