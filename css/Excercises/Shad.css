@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap');
+body{
+    background-color: #EA5455;
+    /* background-color: #FFBF9B; */
+}
+div{
+    font-family: 'La Belle Aurore', cursive;
+    font-weight: 900;
+    font-size: 15rem;
+	text-align: center;
+	height: 90vh;
+	line-height: 90vh;
+    color: #fcedd8;
+
+    text-shadow: 5px 5px #2B3467, 10px 10px #687980, 15px 15px #E84545, 20px 20px #393646, 25px 25px #F4EEE0;
+}

@@ -1,0 +1,18 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+p{
+    /* margin: 0 20px 0 20px; */
+    margin: 0;
+    background-color:rgba(116, 154, 224, 0.628);
+    width: 600px;
+    flex-grow: 12;
+}
+.sidebar{
+    background-color: lavender;
+    flex-grow: 1;
+    margin: 0 2px 0 2px;
+}

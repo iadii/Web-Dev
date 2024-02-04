@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Love+Light&family=Mynerve&family=Orbitron:wght@400;500&family=Work+Sans:ital,wght@1,200;1,400&display=swap');
+#h1{
+    font-size: 60px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+#h2{
+    font-style: italic;
+    font-size: 50px;
+    color: #5C469C;
+}
+#h3{
+    background-color: #5C469C;
+}
+#h1{
+    font-size: 60px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+#h2{
+    font-style: italic;
+    font-size: 50px;
+    color: #5C469C;
+}
+
+#h3{
+    font-family: 'Orbitron', sans-  serif;
+    color: #D25380;
+    font-size: 35ox;
+}
+
+#p{
+    font-weight: lighter;
+    font-size: 40px;
+    line-height:2;
+    letter-spacing:10px;
+}

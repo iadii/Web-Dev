@@ -1,0 +1,25 @@
+.container{
+    width: 900px;
+    height: 100px;
+    display: flex;
+    border: 1px solid black;
+    margin: 40px;
+    padding: 2px;
+    
+}
+.box{
+    width: 300px;
+    /* height:150px; */
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+.container2{
+    flex-wrap: wrap;
+}
+.container3{
+    flex-wrap: wrap-reverse;
+    flex-direction: row-reverse;
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+}

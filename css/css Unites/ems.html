@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .container{
+            font-size: 20px;
+        }
+        h1{
+            font-size: 3em; /* 3*20 = 60px */
+            margin: 0;
+            margin-left: 3em; /* 3*60 = 180px */
+            /* Properties depends on computed value(pixel value) of font-size  */
+        }
+        p{
+            font-size: 0.7em;
+        }
+        /* .box div is inside of another box and em relies on the size of parent div so it will create the parent class hierarchy  and  fonts gets small and small*/
+        .box{
+            font-size: 0.7em;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>EM relies on the size of parent's size</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit impedit minus quasi. Officia explicabo quae dignissimos quia praesentium nobis a?</p>
+
+        <div class="box">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae ipsam ipsum culpa iste iusto nam beatae quo odit rerum vitae a nulla, corrupti cum. In incidunt voluptatem error expedita sequi?
+            <div class="box">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae ipsam ipsum culpa iste iusto nam beatae quo odit rerum vitae a nulla, corrupti cum. In incidunt voluptatem error expedita sequi?
+                <div class="box">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae ipsam ipsum culpa iste iusto nam beatae quo odit rerum vitae a nulla, corrupti cum. In incidunt voluptatem error expedita sequi?
+                    <div class="box">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae ipsam ipsum culpa iste iusto nam beatae quo odit rerum vitae a nulla, corrupti cum. In incidunt voluptatem error expedita sequi?
+                        <div class="box">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae ipsam ipsum culpa iste iusto nam beatae quo odit rerum vitae a nulla, corrupti cum. In incidunt voluptatem error expedita sequi?
+                            <div class="box">
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae ipsam ipsum culpa iste iusto nam beatae quo odit rerum vitae a nulla, corrupti cum. In incidunt voluptatem error expedita sequi?
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

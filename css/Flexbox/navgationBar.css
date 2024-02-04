@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+}
+.header{
+    display: flex;
+    /* height: 5vh; */
+    justify-content: space-between;
+    background-color: #000;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    
+}
+.bar1, .bar2{
+    display: flex;
+    /* justify-content: space-between; */
+    width: 500px
+    
+
+}
+.bar2{
+    display: flex;
+    justify-content: flex-end;
+    width: 500px;
+    padding-right: 20px;
+    
+
+}
+ a{
+    margin: 20px;
+    cursor: grab;
+}

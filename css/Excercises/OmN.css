@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap');
+body{
+    background-color: rgb(159, 2, 2);
+}
+#shiv{
+    display: inline-block;
+    margin-left: 170px;
+    font-size: 150px;
+    text-align: center;
+
+    font-weight: 400;
+    font-family: 'kalam', cursive;
+    /* line-height: 500px; */
+    line-height: 70pc;
+    word-spacing: 10px;
+    color: #F6F1E9;
+    
+
+    text-shadow: -10px -5px 22px  #EEEEEE, 10px 10px 22px  #EEEEEE;
+
+
+    /* text-shadow: -50px 150px 32px  #EEEEEE, 80px 130px 32px  #EEEEEE; */
+}
