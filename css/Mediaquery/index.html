@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: crimson;
+            color:aliceblue;
+        }
+        @media (min-width:600px){
+
+            /* media query fall higher in cascade than normal styles A */
+            /* css only apply when min-width of screen will hit 600px */ 
+            /* without Selectors under media css will not apply */
+            body{
+                background: cyan;
+                color: deeppink;
+            }
+        }
+        @media (min-width:1200px){
+
+            /* css only apply when max-width of screen will hit 600px */
+            /* without Selectors under media css will not apply */
+            body{
+                background: hotpink;
+                color:aqua;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Media Queries</h1>
+</body>
+</html>

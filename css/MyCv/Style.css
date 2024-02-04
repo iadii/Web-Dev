@@ -1,0 +1,86 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500;600&display=swap');
+body{
+    background-color: #ECE2D0;
+    font-family: 'Macondo', cursive;
+    text-align: justify;
+    
+}
+.container {
+
+    text-align: center;
+}
+
+
+#naam{
+    display: block;
+    font-family: 'Caveat', cursive;
+    font-size: 30pt;
+    text-align: center;
+    text-shadow: -20px 20px 19px white, 20px -10px 19px white;
+    text-decoration: line-through;
+}
+#naam:hover{
+    cursor: grabbing;
+    text-transform:uppercase;
+    color: #F0F4F6;
+    text-shadow:-20px 20px 19px #292B2D, 20px -10px 19px #292B2D;
+    text-decoration: line-through;
+    
+}
+.name{
+    display: block;
+    font-family: 'Caveat', cursive;
+    font-size: 18pt;
+    text-align: center;
+    /* text-decoration: line-through; */
+    
+
+ }
+.ed, .wrk, .hob{
+    padding-left: 15px;
+}
+.edu, .hob1{
+    padding-left: auto;
+    
+}
+.wrk1{
+  padding-left: 50px;
+}
+.lis{
+    list-style-type: devanagari
+
+}
+
+.contact{
+    text-decoration: none;
+    display: inline-block;
+    font-size: 19px;
+    font-weight: 700;
+    margin-right: 100px;
+    color: #454851;
+    line-height: 40px;
+}
+.contact:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: #5F1A37;
+
+}
+.contact:visited{
+    color: rgb(40, 40, 85);
+}
+#linked:hover{
+    font-size: 28px;
+}
+#github:hover{
+    font-size: 28px;
+}
+#twitter:hover{
+    font-size: 28px;
+}
+#insta:hover{
+    font-size: 28px;
+
+}

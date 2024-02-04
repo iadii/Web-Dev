@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: coral;
+        }
+        @media only screen and (orientation: portrait){
+            body{
+                background-color: cadetblue;
+            }
+            h1::before{
+                content: "Portrait ";
+            }
+        }
+        @media only screen and (orientation: landscape){
+            body{
+                background-color:  cornsilk;
+            }
+            h1::after{
+                content: " landscape";
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Media Queries</h1>
+</body>
+</html>

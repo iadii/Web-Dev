@@ -1,0 +1,47 @@
+body{
+    background: #fff;
+} 
+/* order is must if range is not set (means in max-size lower width screen should be styled first and then move to bigger) */
+/* for mobile width 0-480 */
+@media only screen and (max-width:480px){
+    body{
+        background: #fe4;
+    }
+    body::before{
+        content: "Mobile Size";
+    }
+}
+
+/* for tablet 481-768 */
+/* size of screen will be whatever the system width*/
+/* if range is set then order doesn't matter */
+@media only screen and (min-width:481px) and (max-width:768px){
+    body{
+        background: #abf;
+    }
+    body::before{
+        content: "Tablet Size";
+    }
+}
+
+/* for small desktop 769-1024 */
+@media only screen and (min-width:769px) and (max-width:1024px){
+    body{
+        background: #fba;
+    }
+    body::before{
+        content: "Small Desktop Size";
+    }
+}
+
+/* anything above is for larger desktop */
+@media only screen and (min-width:1025px){
+    body{
+        background: #6643fa;
+        color: #fff;
+    }
+    body::before{
+        content: "Larger Desktop Size";
+    }
+}
+ 

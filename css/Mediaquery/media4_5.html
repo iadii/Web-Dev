@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(197, 218, 238);
+        }
+
+        /* width is less than or equal to 800px */
+        @media (width <= 800px){
+            body{
+            background-color: rgb(7, 45, 81);
+            color: aliceblue;
+            }
+        }
+        /* if width less than or equal to 900px or greater than 800px then default css will apply */
+        /* width must be greater than 900 px  */
+        @media (width > 900px){
+            body{
+            background-color: hotpink;
+            color: aliceblue;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Media queries 4&5</h1>
+</body>
+</html>

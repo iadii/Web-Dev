@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: red;
+        }
+        /* or operator */
+        /* when width is less than or equal to 600px or more than or equal to 1500 px */
+        @media (max-width:600px) or (min-width:1500px){
+            body{
+                background-color: bisque;
+            }
+        }
+        /* if width is not less than 600px(means more than 600px ) */
+        @media not (max-width:600px){ 
+            body{
+                background-color: purple;
+            }
+        }
+
+        /* and operator */
+        /* since it is after not logical operator style then this will execute  */
+        @media only screen and (orientation: portrait){
+            body{
+                background-color: cadetblue;
+            }
+            h1::before{
+                content: "Portrait ";
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Logical media queries</h1> 
+</body>
+</html>
