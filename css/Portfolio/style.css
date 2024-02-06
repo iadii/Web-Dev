@@ -1,0 +1,191 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Protest+Revolution&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #1d201f;
+  color: #f4f4f9;
+  font-family: "Poppins", sans-serif;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 6rem;
+  /* background-color: #1C2826;  */
+  /* background-color: #232D3F; */
+  /* background-color: #e78895; */
+  /* background-color: #94B0DA; */
+  background-color: #343F3E;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  list-style-type: none;
+  margin: 0 23px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #f4f4f9;
+}
+nav ul li a:hover {
+  color: lavender;
+  font-size: 1.03rem;
+}
+main hr {
+  border: 0;
+  background: rgb(151, 93, 7);
+  background: #e78895;
+  height: 1px;
+  margin: 45px 84px;
+}
+.left {
+  font-size: 3.5rem;
+  /* color: #637a9f; */
+  color: #e78895;;
+  font-weight: 700;
+  /* font-family: 'Protest Revolution', sans-serif; */
+  font-family: "Caveat", cursive;
+  /* font-family: "Protest Revolution", sans-serif; */
+}
+.right {
+  font-size: 0.9rem;
+}
+.firstSection {
+  display: flex;
+  justify-content: space-around;
+  margin: 5.59vh 0;
+  align-items: center;
+}
+.firstSection > div {
+  width: 30%;
+}
+.leftSection {
+  font-size: 2rem;
+  /* margin: 70px 0; */
+}
+.leftSection .btn{
+    padding: 12px 24px;
+    background-color: #1d201f;
+    color: #f4f4f9;
+    border: 2px solid #f4f4f9;
+    border-radius: 7px;
+    font-size: .9rem;
+    cursor:grab;
+    
+    margin-top: 23px;
+}
+.leftSection .btn a{
+    text-decoration: none;
+    color: #f4f4f4;
+}
+.rightSection img {
+  width: 80%;
+  /* height: 80%; */
+  margin: 0 0;
+  opacity: 0.8;
+}
+/* utility class */
+.yellow {
+  color: rgb(151, 93, 7);
+  color: #e78895;
+  color: #637a9f;
+}
+#element {
+  color: rgb(151, 93, 7);
+  color: #e78895;
+  color: #637a9f;
+}
+.text-gray {
+  color: gray;
+  font-size: 0.8rem;
+}
+.secondSection {
+  max-width: 80vw;
+  margin: auto;
+  height: 80vh;
+}
+.secondSection h1 {
+  font-size: 1.9rem;
+}
+.secondSection .box {
+  background: #fff;
+  width: 80vw;
+  height: 2px;
+  margin: 56px 0;
+  display: flex;
+}
+.secondSection .box .vertical {
+  height: 93px;
+  width: 1px;
+  background: #fff;
+  margin: 0 140px;
+}
+.image-top{
+    width: 23px;
+    position: relative;
+    top: -38px;
+    left: -8px;
+}
+.vertical-title{
+    position: relative;
+    top: 75px;
+    width: 150px;
+    font-size: 15px;
+}
+.vertical-desc{
+    position: relative;
+    top: 86px;
+    color: gray;
+    width: 150px;
+     font-size: .7rem;
+}
+footer{
+    background-color: #343F3E;
+    height: 233px;
+}
+
+.footer{
+    display: flex;
+    padding: 23px 222px;
+    justify-content: space-between;
+    
+}
+.footer h3{
+    position: relative;
+    left: -30px;
+    top: 50px;
+}
+.footer ul{
+    list-style: none;
+    position: relative;
+    right: -322px;
+    top: 20px;
+}
+.footer ul li{
+    list-style: none;
+    margin: 8px;
+    
+}
+.footer ul li img{ 
+    width: 20px;
+    
+}
+.footer ul li a{ 
+    position: relative;
+    right: -7px;
+    top: -4px;
+    text-decoration: none;
+    color: #f4f4f9;
+    
+}
+footer p{
+    text-align: center;
+    font-size: large;
+}
